@@ -1,0 +1,30 @@
+header{
+    background-image: url('./SearchBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: black;
+    font-size: 50px;
+    -webkit-text-stroke: 1px white;
+}
+
+header input{
+    width: 40%;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
